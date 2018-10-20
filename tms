@@ -1,0 +1,16 @@
+#!/usr/bin/env zsh
+
+source "$(dirname ${(%):-%N})/tms.plugin.zsh"
+
+readonly BLACK="\033[30m"
+readonly RED="\033[31m"
+readonly GREEN="\033[32m"
+readonly YELLOW="\033[33m"
+readonly BLUE="\033[34m"
+readonly MAGENTA="\033[35m"
+readonly CYAN="\033[36m"
+readonly WHITE="\033[37m"
+readonly BOLD="\033[1m"
+readonly DEFAULT="\033[m"
+
+tms $@
