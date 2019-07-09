@@ -19,12 +19,6 @@ bindkey '^[t' tms
 
 ## Installastion
 
-#### zplug users
-
-```zsh:.zshrc
-zplug "yuki-ycino/tms", as:command
-```
-
 #### antigen users
 
 ```
