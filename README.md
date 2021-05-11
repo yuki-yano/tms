@@ -1,4 +1,5 @@
 # tms
+
 `tms` easily selects and creates tmux sessions using fzf
 
 ## Usage
@@ -31,10 +32,6 @@ antigen bundle yuki-ycino/tms
 zgen load yuki-ycino/tms
 ```
 
-## Requirements
-Either of these is necessary.
-
-+ `fzf-tmux`
-
 ## Original
+
 Qiita:(Witten in Japanese) 👉 https://qiita.com/arks22/items/cb109867c7aa094354e5

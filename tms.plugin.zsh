@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 function _tms-operation() {
-  answer=$(_tms-operation-list | fzf-tmux --ansi --prompt="tms >" )
+  answer=$(_tms-operation-list | fzf --ansi --prompt="tms >" )
   case $answer in
     *select\ session* ) tmux switch-client -t $(echo  "$answer" | awk '{print $5}' | sed "s/://g") ;;
     *attach*          ) tmux attach -t $(echo "$answer" | awk '{print $4}' | sed 's/://') ;;
